@@ -11,7 +11,7 @@ public class DataTypes {
 		int x=12;
 		double price = 15.94;
 		char grade = 'A';
-		float weight = 24.90;
+		float weight = 24.99f;
 		boolean flag = true;
 
 		String name = "Hello";
