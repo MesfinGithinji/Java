@@ -19,11 +19,11 @@ public class DictionaryDemo {
         System.out.println("The value mapped to the key Andre Wilson is: " + phoneBook.get("Andre Wilson"));
      
         // Printing all the keys
-	System.out.println("\nHere are all the keys:");
+	    System.out.println("\nHere are all the keys:");
         System.out.println(phoneBook.keySet());
 
         // Printing all the values
-	System.out.println("\nHere are all the values:");
+	    System.out.println("\nHere are all the values:");
         System.out.println(phoneBook.values());
     }
 }
