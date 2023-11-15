@@ -5,7 +5,7 @@ public class ReplaceArray {
 		BufferedReader bufferedReader =  new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter your ten numbers: ");
 
-		//lets get our space separated values into an array
+		//lets read whatever is in our buffer separaetd by spaces and assign them into an array
 		String[] inputValues = bufferedReader.readLine().split(" ");
 		
 		//create a new array that will store the input values
