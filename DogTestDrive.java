@@ -30,9 +30,13 @@ public class DogTestDrive{
 		int i=0;
 		while(i<myDogs.length){
 			myDogs[i].bark();
-		        myDogs[i].eat();
+		    myDogs[i].eat();
 			System.out.println();	
 			i++;
 		}
+
+		// for (int x=0; i < myDogs.length; x++){
+		// 	System.out.println(myDogs[x]);
+		// }
 	}
 }
