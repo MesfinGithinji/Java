@@ -13,10 +13,9 @@ public class DataTypes {
 		char grade = 'A';
 		float weight = 24.99f;
 		boolean flag = true;
-
 		String name = "Hello";
 
-
+		System.out.println(x);
+		System.out.println(price);
 	}
-
 }
