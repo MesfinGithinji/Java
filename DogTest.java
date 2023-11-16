@@ -21,6 +21,7 @@ class DogTest{
 		d1.gender = "Male";
 		d1.age = 4;
 
+		//output code
 		System.out.println("Name: "+ d1.name + "\nBreed: "+ d1.breed + "\nGender: "+ d1.gender + "\nAge: "+d1.age);
 		d1.bark();
 	}
