@@ -16,8 +16,11 @@ public class ArraySwap {
 			inputValues[j] = inputValues[i];
 			inputValues[i] = temp;
 		}
-		for (int x=0; x<inputValues.length; x++){
-			System.out.println("arr["+ x + "]= " + inputValues[x]);
+		//for (int x=0; x<inputValues.length; x++){
+		//	System.out.println("arr["+ x + "]= " + inputValues[x]);
+		//}
+		for (String value: inputValues) {
+			System.out.println(value);
 		}
 	}
 }
