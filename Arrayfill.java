@@ -12,11 +12,11 @@ public class Arrayfill {
 		
 		//create our array 
 		int[] arr = new int[10];
-		
+		arr[0] = x;
+
 		//for loop to loop through the array from index 1 to 9
-		for (int i=0; i < arr.length; i++){
-			arr[i] = x;
-			x *= 2;
+		for (int i=1; i < arr.length ; i++){
+			arr[i] = arr[i-1] * 2; 
 		}
 		for (int y=0; y < arr.length; y++){
 			System.out.println("N[" + y + "]= " + arr[y]);
