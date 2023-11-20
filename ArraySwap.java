@@ -2,7 +2,10 @@ import java.io.*;
 
 public class ArraySwap {
 	public static void main(String[] args) throws IOException{
+		//create our buffer
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+		//prompt the user
 		System.out.println("Enter 10 numbers separated by spaces");
 		//put our input values into an array
 		String[] inputValues = bufferedReader.readLine().split(" ");
