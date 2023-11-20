@@ -14,10 +14,12 @@ public class MovieTestDrive {
 	public static void main (String[] args){
 		//instantiate our object of class movie
 		Movie firstMovie = new Movie();
+		
 		//use dot notation to initalize the variables
 		firstMovie.title = "Iron Man";
 		firstMovie.genre = "Sc-Fi Action";
 		firstMovie.rating = 8.5;
+		
 		//lets call the class method using our object
 		firstMovie.playMovie();
 		System.out.println("Movie Name: "+ firstMovie.title);
