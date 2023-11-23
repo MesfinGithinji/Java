@@ -5,11 +5,9 @@ public class Arrayfill {
 	public static void main (String[] args) throws IOException {
 		//create scanner object
 		Scanner scanner = new Scanner(System.in);
-
 		//prompt the use for the number
 		System.out.println("Enter Number to be doubled: ");
 		int x = scanner.nextInt();
-		
 		//create our array 
 		int[] arr = new int[10];
 		arr[0] = x;
