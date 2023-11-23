@@ -16,7 +16,6 @@ public class ArrayReplacement {
             try {
                 // Convert the string to an integer
                 X[i] = Integer.parseInt(inputValues[i]);
-
                 // Check if the number is negative or null
                 if (X[i] == 0 || X[i] < 0) {
                     X[i] = 1;
@@ -26,8 +25,6 @@ public class ArrayReplacement {
                 System.out.println("Invalid input. Please enter 10 space-separated numbers.");
                 return;
             }
-
-            
         }
 	
 	for (int i = 0; i < X.length; i++) {
