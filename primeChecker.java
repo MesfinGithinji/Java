@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class primeChecker {
     public static void main(String[] args) {
+        //scanner object 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
