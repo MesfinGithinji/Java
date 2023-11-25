@@ -1,6 +1,6 @@
 public class TwoSum {
 	
-	boolean checksum (int[] arr , int target) {
+	static boolean checksum (int[] arr , int target) {
 		for (int i=0; i < arr.length; i++) {
 			for (int j=i+1; j < arr.length; j++) {
 				int sum = arr[i] + arr[j];
@@ -24,7 +24,7 @@ public class TwoSum {
                 boolean result = twosum.checksum(arr,target);
 
                 if (result) {
-                        System.out.println("Numbers found");
+                        System.out.println("Numbers found ");
                 } else {
                         System.out.println("Numbers not found");
                 }
