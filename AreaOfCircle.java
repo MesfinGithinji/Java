@@ -9,7 +9,7 @@ public class AreaOfCircle {
         double n = 3.14159;
         double area = n * (radius * radius);
 
-        System.out.println("The area of your cirlce is:" + area);
+        System.out.printf("The area of your circle is: %.4f\n", area);
         scan.close();
     }
 }
