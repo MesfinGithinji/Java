@@ -1,13 +1,14 @@
-import java.io.*;
 import java.util.*;
 
 public class Arrayfill {
-	public static void main (String[] args) throws IOException {
+	public static void main (String[] args) {
 		//create scanner object
 		Scanner scanner = new Scanner(System.in);
+
 		//prompt the use for the number
 		System.out.println("Enter Number to be doubled: ");
 		int x = scanner.nextInt();
+
 		//create our array 
 		int[] arr = new int[10];
 		arr[0] = x;
@@ -19,5 +20,9 @@ public class Arrayfill {
 		for (int y=0; y < arr.length; y++){
 			System.out.println("N[" + y + "]= " + arr[y]);
 		}
+		
+		System.out.println(Arrays.toString(arr));
+
+		scanner.close();
 	}
 }
