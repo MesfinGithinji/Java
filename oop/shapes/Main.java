@@ -12,4 +12,3 @@ public class Main {
         System.out.println("The perimeter of the rectangle is now " + rectangle.calculatePerimeter());
     }
 }
-
