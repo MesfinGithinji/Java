@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Arrayfill {
 	public static void main (String[] args) {
 		//create scanner object
